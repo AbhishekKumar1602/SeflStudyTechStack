@@ -1,0 +1,50 @@
+users:
+  - name: John Doe
+    age: 30
+    address:
+      city: New York
+      zipcode: 10001
+    hobbies:
+      - Reading
+      - Traveling
+
+  - name: Jane Smith
+    age: 25
+    address:
+      city: San Francisco
+      zipcode: 94105
+    hobbies:
+      - Coding
+      - Hiking
+
+company:
+  name: Acme Corporation
+  employees:
+    - id: 101
+      name: Alice Johnson
+      position: Developer
+    - id: 102
+      name: Bob Williams
+      position: Designer
+
+settings:
+  debug: true
+  max_connections: 100
+
+# Document 2
+---
+database:
+  name: MySQL
+  version: 8.0
+  tables:
+    - name: users
+      columns:
+        - id
+        - name
+        - age
+    - name: products
+      columns:
+        - id
+        - name
+        - price
+
